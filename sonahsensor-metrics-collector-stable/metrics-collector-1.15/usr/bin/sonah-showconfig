@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Sensor pk:"
+sonah-showpk
+echo "VPN Client:"
+sonah-showclient
+echo "VPN IP:"
+sonah-showip-vpn

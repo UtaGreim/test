@@ -1,0 +1,3 @@
+#! /bin/bash
+cd /etc/metrics-collector
+/etc/metrics-collector/update_volume.sh

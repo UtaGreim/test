@@ -1,0 +1,2 @@
+#!/bin/bash
+cat /etc/openvpn/client/client.crt | sed -n 's/.*\(client[0-9]*\).*/\1/p' | head -1

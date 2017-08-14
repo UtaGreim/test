@@ -1,0 +1,4 @@
+#!/bin/bash
+INTERFACE=tun0
+IP=$(ifconfig "$INTERFACE" | grep "inet addr:" |sed 's/.*inet\ addr:\([0-9\.]*\)\ .*/\1/')
+echo "$IP"
